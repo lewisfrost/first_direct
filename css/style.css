@@ -331,6 +331,11 @@ a:hover,a:focus,.a:active {
   font-size: 22px;
   color: #ffffff !important;
   letter-spacing: 1px;
+
+}
+
+.logo-img {
+  width:123px;
 }
 
 .navbar-custom .btn-custom {
