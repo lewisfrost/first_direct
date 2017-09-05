@@ -1,0 +1,89 @@
+.home-head-heading{
+	padding:50px 0;
+}
+.home-head-heading h2{
+	font-size:50px;
+	margin:0;
+	padding:0;
+	margin-bottom:30px;
+	font-family:'helveticaneuebold', Arial, Helvetica, sans-serif;
+	
+}
+
+.home-head-heading h2 span{
+	display:inline-block;
+	background:#000000;
+	color:#ffffff;
+	padding:5px 15px;
+}
+
+.welcome-section .inner-div{
+		padding:40px 30px;
+		background:#fff;
+		color:#000;
+		margin-bottom:30px;
+		box-shadow:1px 2px 2px #666;
+}
+.welcome-section h3{
+	margin:0;
+	font-size:18px;
+	font-family:'helveticaneuebold', Arial, Helvetica, sans-serif;
+	margin-bottom:10px;
+}
+.welcome-section p:last-child{margin-bottom:0}
+
+
+.tech-gifts{
+	margin-bottom:80px;
+}
+.tech-gifts h3{
+	margin:0;
+	font-size:22px;
+	color:#000;
+	font-family:'helveticaneuebold', Arial, Helvetica, sans-serif;
+	margin-bottom:10px;
+}
+
+.tech-gifts .row {
+	padding-bottom: 30px;
+}
+
+.post-div{
+	background:#fff;
+	padding:15px;
+	color:#000;
+	box-shadow:1px 2px 2px #666;
+
+}
+.post-div .img-div{
+	margin-bottom:20px;
+}
+.post-div .img-div img{
+	width:100%;
+	height:auto
+}
+.post-div h4{
+	margin:0;
+	font-size:18px;
+	font-family:'helveticaneuebold', Arial, Helvetica, sans-serif;
+	 margin-bottom:20px;
+}
+.post-div .btn{
+	background:url(../images/icon-arrow.png) no-repeat right center #1d1d1b;
+	min-width:132px;
+	color:#fff;
+	font-size:10px;
+}
+
+.gobak {
+	position:relative;
+	padding:0px 0px 70px 0px;
+}
+
+
+@media (max-width: 767px) {
+	.gobak {
+		position: relative;
+		padding: 0px 0px 10px 0px;
+	}
+}

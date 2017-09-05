@@ -1,0 +1,135 @@
+ @font-face {
+    font-family: 'helveticaneuebold';
+    src: url('../fonts/helveticaneuebold.eot');
+    src: url('../fonts/helveticaneuebold.eot') format('embedded-opentype'),
+         url('../fonts/helveticaneuebold.woff2') format('woff2'),
+         url('../fonts/helveticaneuebold.woff') format('woff'),
+         url('../fonts/helveticaneuebold.ttf') format('truetype'),
+         url('../fonts/helveticaneuebold.svg#helveticaneuebold') format('svg');
+}
+/*======= 1.Reset ======== */
+body.home-page {
+	padding-top:90px;
+}
+.home-page .sticky-wrapper{
+	top:0;
+	left:0
+}
+ 
+.home-head-heading{
+	
+	padding:30px 0;
+}
+.home-head-heading h2{
+	font-size:50px;
+	margin:0;
+	padding:0;
+	margin-bottom:30px;
+	font-family:'helveticaneuebold', Arial, Helvetica, sans-serif;
+	
+}
+
+.home-head-heading h2 span{
+	display:inline-block;
+	background:#000000;
+	color:#ffffff;
+	padding:5px 15px;
+}
+.welcome-section .inner-div{
+		padding:30px 30px;
+		background:#fff;
+		color:#000;
+		margin-bottom:50px;
+		box-shadow:1px 2px 2px #666;
+}
+.welcome-section h3{
+	margin:0;
+	font-size:18px;
+	font-family:'helveticaneuebold', Arial, Helvetica, sans-serif;
+	margin-bottom:10px;
+}
+.welcome-section p:last-child{margin-bottom:0}
+.switch-list{
+	margin-bottom:80px;
+}
+.switch-list h3{
+	margin:0;
+	font-size:22px;
+	color:#000;
+	font-family:'helveticaneuebold', Arial, Helvetica, sans-serif;
+	margin-bottom:10px;
+}
+
+.post-div{
+	background:#fff;
+	padding:15px;
+	color:#000;
+	box-shadow:1px 2px 2px #666;
+}
+.post-div .img-div{
+	margin-bottom:20px;
+}
+.post-div .img-div img{
+	width:100%;
+	height:auto
+}
+.post-div h4{
+	margin:0;
+	font-size:18px;
+	font-family:'helveticaneuebold', Arial, Helvetica, sans-serif;
+	 margin-bottom:20px;
+}
+.post-div .btn{
+	background:url(../images/icon-arrow.png) no-repeat right center #1d1d1b;
+	min-width:132px;
+	color:#fff;
+	font-size:10px;
+	
+}
+
+.footer-link{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-size:0;
+}
+.footer-link li{
+	display:inline-block;
+}
+.footer-link a{
+	display:block;
+	padding:5px 18px;
+	font-size:14px;
+	color:#fff;
+}
+
+
+ 
+
+@media (max-width: 767px) {
+   
+  .home-head-heading h2{
+	font-size:30px;
+	
+	}
+	footer{
+		text-align:center
+	}
+	.footer-link{
+		margin-bottom:30px;
+	}
+	footer .text-right{
+		text-align:center
+	}
+	.footer {
+		padding-top: 40px;
+		padding-bottom: 40px;
+		}
+}
+@media (max-width: 480px) {
+	.home-head-heading h2 {
+		font-size: 23px;
+		margin-bottom:10px;
+	}
+
+}
