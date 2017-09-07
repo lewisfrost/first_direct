@@ -8,16 +8,17 @@
          url('../fonts/helveticaneuebold.svg#helveticaneuebold') format('svg');
 }
 /*======= 1.Reset ======== */
-body.ordered-page {
+body.product-page {
 	padding-top:90px;
 }
-.ordered-page .sticky-wrapper{
+.product-page .sticky-wrapper{
 	top:0;
 	left:0
 }
 .navbar-brand {
     padding: 6px 15px;
 }
+
 
 
 .custom-nav {
@@ -67,46 +68,31 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 	 text-decoration: underline;
  }
 
-
-
-
-.head-heading{
-	padding:45px 0px 0px 0px;
+.product-head-heading{
+	padding:0px;
 }
-.head-heading h2{
+.product-head-heading h2{
 	font-size:50px;
 	margin:0;
 	padding:0;
 	margin-bottom:30px;
 	font-family:'helveticaneuebold', Arial, Helvetica, sans-serif;
-	
-}
-
-.head-heading h2 span{
-	display:inline-block;
-	background:#000000;
-	color:#ffffff;
-	padding:5px 15px;
+	color:#000;
+	font-weight:bold;
 }
 
 
-
-
-
-
-
-.welcome-section {
-	position:relative;
-	padding:35px 0px 80px 0px;
-}
 .welcome-section .inner-div {
-	padding: 28px;
+	padding: 15px 15px;
     background: #fff;
     color: #000;
     margin-bottom: 30px;
     box-shadow: 2px 5px 5px #666;
+    min-height: 310px;
 }
-
+.welcome-section .inner-div.thumb {
+	text-align:center;
+}
 .welcome-section h3{
 	margin:0;
 	font-size:18px;
@@ -264,8 +250,10 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
  
 
 @media (max-width: 767px) {
-   .head-heading h2{
+   
+  .home-head-heading h2{
 	font-size:30px;
+	
 	}
 	footer{
 		text-align:center
@@ -312,7 +300,7 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 }
 }
 @media (max-width: 480px) {
-	.head-heading h2 {
+	.home-head-heading h2 {
 		font-size: 23px;
 		margin-bottom:10px;
 	}

@@ -8,10 +8,10 @@
          url('../fonts/helveticaneuebold.svg#helveticaneuebold') format('svg');
 }
 /*======= 1.Reset ======== */
-body.ordered-page {
+body.faq-page {
 	padding-top:90px;
 }
-.ordered-page .sticky-wrapper{
+.faq-page .sticky-wrapper{
 	top:0;
 	left:0
 }
@@ -120,6 +120,43 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 	font-family:'helveticaneuebold', Arial, Helvetica, sans-serif;
 	margin-bottom:15px;
 }
+.welcome-section .inner-div h4  {
+	font-size: 14px;
+    font-family: 'helveticaneuebold', Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+    font-weight: bold;
+    padding-left: 18px;
+}
+.welcome-section .inner-div .fque {
+	font-size:13px;
+	font-family:'helveticaneuebold', Arial, Helvetica, sans-serif;
+	margin-bottom:10px;
+	font-weight:bold;
+	cursor:pointer;
+	position:relative;
+	padding-left:18px;
+}
+.welcome-section .inner-div .fque:before {
+	content:'>';
+	font-size:15px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-weight:bold;
+	position:absolute;
+	left:0px;
+	top:-3px;
+}
+.welcome-section .inner-div .fans {
+	margin:0;
+	font-size:12px !important;
+	font-family:'helveticaneuebold', Arial, Helvetica, sans-serif;
+	margin-bottom:10px;
+}
+
+.section-gap {
+	position:relative;
+	height:5px;
+}
+
 .choose-btn {
 	background-color:#1d1d1b;
 	color:#fff;

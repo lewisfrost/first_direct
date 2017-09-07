@@ -15,7 +15,9 @@ body.product-page {
 	top:0;
 	left:0
 }
-
+.navbar-brand {
+    padding: 6px 15px;
+}
 
 
 .custom-nav {

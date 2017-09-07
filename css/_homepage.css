@@ -1,3 +1,12 @@
+ @font-face {
+    font-family: 'helveticaneuebold';
+    src: url('../fonts/helveticaneuebold.eot');
+    src: url('../fonts/helveticaneuebold.eot') format('embedded-opentype'),
+         url('../fonts/helveticaneuebold.woff2') format('woff2'),
+         url('../fonts/helveticaneuebold.woff') format('woff'),
+         url('../fonts/helveticaneuebold.ttf') format('truetype'),
+         url('../fonts/helveticaneuebold.svg#helveticaneuebold') format('svg');
+}
 /*======= 1.Reset ======== */
 body.home-page {
 	padding-top:90px;
@@ -5,6 +14,9 @@ body.home-page {
 .home-page .sticky-wrapper{
 	top:0;
 	left:0
+}
+.navbar-brand {
+    padding: 6px 15px;
 }
  
 .home-head-heading{

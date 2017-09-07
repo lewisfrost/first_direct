@@ -21,10 +21,10 @@
 
         <!-- Custom styles for this template -->
         <link href="../css/style.css" rel="stylesheet">
-
-        <!-- Custom styles for this page-->
+        
+		<!-- Home styles for this template -->
         <link href="../css/_register.css" rel="stylesheet">
-
+        
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
         <!--[if lt IE 9]>
           <script src="js/html5shiv.js"></script>
@@ -34,7 +34,7 @@
     </head>
 
 
-    <body data-spy="scroll" data-target="#navbar-menu">
+    <body data-spy="scroll" data-target="#navbar-menu" class="register-page">
 
         <!-- Navbar -->
         <div class="navbar navbar-custom sticky" role="navigation" id="sticky-nav">
@@ -42,18 +42,19 @@
 
                 <!-- Navbar-header -->
                 <div class="navbar-header">
+                
                     <!-- LOGO -->
                     <a class="navbar-brand logo" href="index.html">
-                        <img class="logo-img" src="../images/logo.png">
-                    </a>
-
+                    <img src="../images/logo_224x38.svg" width="224px" height="38" alt=""/> </a> 
                 </div>
                 <!-- end navbar-header -->
+                
+                 
+                
             </div>
             <!-- end container -->
         </div>
         <!-- End navbar-custom -->
-
 
         <!-- Header title -->
         <section class="header-title-box">
@@ -66,11 +67,12 @@
             </div> <!-- end container -->
         </section>
         <!-- END Header title -->
+        
         <section class="subheader-title-box">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 text-center">
-                      <h3 class="welcome">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque tortor cursus mi pharetra, ac auctor orci egestas. Proin condimentum dolor nec ligula lobortis, ac efficitur justo aliquam.</h3>
+                      <h3 class="welcome">Thanks for switching your banking to first direct, Register by filling in your details below,<br>and we'll follow up with details on how to claim your welcome gift.</h3>
                     </div>
                 </div>
             </div> <!-- end container -->
@@ -81,50 +83,61 @@
         <section class="section">
             <div class="container">
                 <div class="row">
-                    <form role="form" name="ajax-form" id="contact-form"
-                          action="https://formsubmit.io/send/17a46d93-adb2-4bd5-8694-ec9ba05bf5fd" method="post"
-                          class="contact-form" data-parsley-validate novalidate>
+                    <form name="regform" action="register_complete.html" method="post" class="contact-form">
 
-                        <div class="col-xs-6 form-group">
+                        <div class="col-sm-6 form-group">
                             <label>Forename</label>
-                            <input class="form-control" type="text"/>
+                            <input class="form-control" type="text">
                         </div>
-                        <div class="col-xs-6 form-group">
+                        <div class="col-sm-6 form-group">
                             <label>Surname</label>
                             <input class="form-control" type="text"/>
                         </div>
-                        <div class="col-xs-6 form-group">
+                        <div class="col-sm-6 form-group">
                             <label>Email Address</label>
                             <input class="form-control" type="text"/>
                         </div>
-                        <div class="col-xs-6 form-group">
+                        <div class="col-sm-6 form-group">
                             <label>Confirm Email Address</label>
                             <input class="form-control" type="text"/>
                         </div>
-                        <div class="col-xs-6 form-group">
+                        <div class="col-sm-6 form-group">
                             <label>Postcode</label>
-                            <input class="form-control" type="text"/>
+                            <input type="text" class="form-control">
                         </div>
-                        <div class="col-xs-6 form-group">
+                        <div class="col-sm-6 form-group">
                             <label>Activation Code</label>
-                            <input class="form-control" type="text"/>
+                            <input class="form-control" type="text"/><br>
+                            <span class="instruction">This is the code we emailed you</span>
                         </div>
 
-                        <div class="form-group">
+                        <div class="col-xs-12 form-group">
+                            <div class="agree">
                             <input id="checkBox" type="checkbox">
                             <label for="terms">Agree to the Terms &amp; Conditions</label>
+                            </div>
+                            
                         </div>
                         <!-- /Terms Checkbox -->
-
-                        <div class="row">            
-                            <div class="col-xs-12">
+                        
+                        
+                        <div class="col-xs-12">
                                 <div id="success-form" class="text-success" style="display: none;">E-mail was successfully sent.</div>
                                 <div class="error text-center" id="err-form"></div>
-                                <button type="submit" class="btn btn-custom" id="send">Register &gt;</button>
-                            </div> <!-- /col -->
-                        </div> <!-- /row -->
+                                <div class="text-left">
+                                    <button type="submit" class="btn btn-custom" id="send">Register &gt;</button>
+                                </div>
+                            </div>
 
-                        </form> <!-- /form -->
+
+                        
+
+                        </form>
+                      
+                    
+                    
+                     
+                     <!-- /form -->
                     </div> <!-- end col -->
 
             </div> <!-- end container -->
@@ -132,22 +145,22 @@
         <!-- End Contact Form -->
 
 
-        <!-- FOOTER -->
-        <footer class="section bg-gray footer">
+       <!-- FOOTER -->
+        <footer class="footer">
             
                 <div class="container">
-                <div class="row">
-                    <div class="col-sm-9">
-                        <ul class="footer-link">
-                            <li><a href="#">Things you may ask</a></li>
+               	<div class="row">
+                	<div class="col-sm-9">
+                    	<ul class="footer-link">
+                        	<li><a href="#">Things you may ask</a></li>
                             <li><a href="#">The legal bit</a></li>
                             <li><a href="#">About privacy</a></li>
                             <li><a href="#">Get in touch</a></li>
                         </ul>
-                        
+                    	
                     </div>
                     <div class="col-sm-3 text-right">
-                        <img alt="" src="../images/f-bg-right.png">
+                    	<img alt="" src="../images/f-bg-right.png">
                     </div>        
 
                 </div> <!-- end container --> 
@@ -157,7 +170,11 @@
         <!-- END FOOTER -->
         
 
-        <!-- js placed at the end of the document so the pages load faster -->
+        <!-- Back to top -->    
+        <a href="#" class="back-to-top" id="back-to-top"> <i class="pe-7s-angle-up"> </i> </a>
+
+
+      <!-- js placed at the end of the document so the pages load faster -->
         <script src="../js/jquery-2.1.4.min.js"></script>
         <script src="../js/bootstrap.min.js"></script>
 
