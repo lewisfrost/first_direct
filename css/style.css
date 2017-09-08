@@ -656,8 +656,9 @@ label.valid {
 .footer-link a{
   display:block;
   padding:5px 18px;
-  font-size:14px;
+  font-size:18px;
   color:#fff;
+  font-family: 'helveticaneuebold', Arial, Helvetica, sans-serif;
 }
 
 
