@@ -9,7 +9,7 @@
 }
 /*======= 1.Reset ======== */
 body.experience-page {
-	padding-top:90px;
+	padding-top:110px;
 }
 .experience-page .sticky-wrapper{
 	top:0;
@@ -75,8 +75,11 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 	text-align:center;
 }
 .header img {
-	width:100%;
+	width: 100%;
+	max-width:800px;
 	height:auto;
+    box-shadow: 1px 2px 2px #666;
+
 }
 
 
@@ -106,14 +109,14 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
     background: #fff;
     color: #000;
     margin-bottom: 30px;
-    box-shadow: 2px 5px 5px #666;
+    box-shadow: 1px 2px 2px #666;
 }
 .welcome-section .inner-div-video {
 	padding: 10px;
     background: #fff;
     color: #000;
     margin-bottom: 30px;
-    box-shadow: 2px 5px 5px #666;
+    box-shadow: 1px 2px 2px #666;
 }
 
 .welcome-section h3{
@@ -126,7 +129,7 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 .welcome-section p{
 	margin:0;
 	font-size:12px;
-	font-family:'helveticaneuebold', Arial, Helvetica, sans-serif;
+	font-family:'helveticaneue', Arial, Helvetica, sans-serif;
 	margin-bottom:15px;
 }
 .choose-btn {
@@ -173,7 +176,7 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
     background: #fff;
     color: #000;
     margin-bottom: 30px;
-    box-shadow: 2px 5px 5px #666;
+    box-shadow: 1px 2px 2px #666;
 }
 .testimonial-section .inner-div h3{
 	margin:0;
@@ -317,7 +320,7 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
     background: #fff;
     color: #000;
     margin-bottom: 15px;
-    box-shadow: 2px 5px 5px #666;
+    box-shadow: 1px 2px 2px #666;
 }
 .gobak {
     position: relative;
@@ -329,5 +332,6 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 		font-size: 23px;
 		margin-bottom:10px;
 	}
+
 
 }
