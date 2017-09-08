@@ -99,7 +99,7 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 
 .welcome-section {
 	position:relative;
-	padding: 50px 0px 0px 0px;
+	padding: 30px 0px 0px 0px;
 }
 .welcome-section .inner-div{
 		padding:40px 30px;
@@ -117,7 +117,7 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 .welcome-section p{
 	margin:0;
 	font-size:12px;
-	font-family:'helveticaneuebold', Arial, Helvetica, sans-serif;
+	font-family:'helveticaneue', Arial, Helvetica, sans-serif;
 	margin-bottom:20px;
 	line-height:20px;
 
