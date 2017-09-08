@@ -118,7 +118,7 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 .welcome-section p{
 	margin:0;
 	font-size:12px;
-	font-family:'helveticaneuebold', Arial, Helvetica, sans-serif;
+	font-family:'helveticaneue', Arial, Helvetica, sans-serif;
 	margin-bottom:15px;
 }
 .choose-btn {
@@ -260,6 +260,40 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 	font-size:14px;
 	color:#fff;
 }
+
+.btn-area {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.choose-btn {
+	background-color:#1d1d1b;
+	color:#fff;
+	font-size:14px;
+	font-family:'helveticaneuebold', Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	padding: 10px 40px 10px 25px;
+	border:1px solid #1d1d1b;
+	position:relative;
+}
+.choose-btn:hover {
+	background-color:#ececec;
+	color:#1d1d1b;
+	text-decoration:none;
+	border:1px solid #cecece;
+}
+.choose-btn:after {
+	content: '>';
+    position: absolute;
+    top: 7px;
+    color: #fff;
+    font-size: 15px;
+    right: 20px;
+}
+.choose-btn:hover:after {
+	color:#1d1d1b;
+}
+
 
 
  
