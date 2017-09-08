@@ -32,6 +32,11 @@ body.register-page {
 */
 
 /*form */
+regcontainer {
+  max-width:960px;  
+}
+
+
 textarea {
   max-width: 100%;
 }
@@ -212,14 +217,11 @@ textarea.form-control {
 }
 
 
-
-
 .main-container {
 	max-height:100%;
 	height:100vh;
+    max-width:960px;
 }
-
-
 
 
 @media (max-width: 767px) {

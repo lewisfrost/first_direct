@@ -82,15 +82,17 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 
 
 .welcome-section .inner-div {
-	padding: 15px 15px;
+	padding: 30px;
     background: #fff;
     color: #000;
     margin-bottom: 30px;
-    box-shadow: 1px 2px 2px #666;
-    min-height: 310px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+    border-radius: 3px;
+    min-height: 570px;
 }
 .welcome-section .inner-div.thumb {
 	text-align:center;
+    padding: 8px;
 }
 .welcome-section h3{
 	margin:0;
@@ -140,14 +142,15 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 
 .testimonial-section {
 	position:relative;
-	padding:30px 0px;
+	padding:0px 0px;
 }
 .testimonial-section .inner-div {
-	padding: 15px 15px;
+	padding: 30px;
     background: #fff;
     color: #000;
     margin-bottom: 30px;
-    box-shadow: 1px 2px 2px #666;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+    border-radius: 3px;
 }
 .testimonial-section .inner-div h3{
 	margin:0;
@@ -158,8 +161,8 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 }
 .testimonial-section .inner-div p{
 	margin:0;
-	font-size:12px;
-	font-family:'helveticaneuebold', Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-family:'helveticaneue', Arial, Helvetica, sans-serif;
 	margin-bottom:24px;
 }
 .author-name {
@@ -178,7 +181,7 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 }
 
 .feature ul li{
-	font-size: 12px;
+	font-size: 14px;
     font-family: 'helveticaneuebold', Arial, Helvetica, sans-serif;
     margin-bottom: 3px;
     line-height: 15px;
