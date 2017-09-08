@@ -8,9 +8,7 @@
          url('../fonts/helveticaneuebold.svg#helveticaneuebold') format('svg');
 }
 /*======= 1.Reset ======== */
-body.life-changing-page {
-	padding-top:90px;
-}
+
 .life-changing-page .sticky-wrapper{
 	top:0;
 	left:0
@@ -77,6 +75,7 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 .header img {
 	width:100%;
 	height:auto;
+    box-shadow: 1px 2px 2px #666;
 }
 
 
@@ -106,7 +105,7 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
     background: #fff;
     color: #000;
     margin-bottom: 30px;
-    box-shadow: 2px 5px 5px #666;
+    box-shadow: 1px 2px 2px #666;
 }
 
 .welcome-section h3{
@@ -164,7 +163,7 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
     background: #fff;
     color: #000;
     margin-bottom: 30px;
-    box-shadow: 2px 5px 5px #666;
+    box-shadow: 1px 2px 2px #666;
 }
 .testimonial-section .inner-div h3{
 	margin:0;
@@ -308,7 +307,7 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
     background: #fff;
     color: #000;
     margin-bottom: 15px;
-    box-shadow: 2px 5px 5px #666;
+    box-shadow: 1px 2px 2px #666;
 }
 .gobak {
     position: relative;

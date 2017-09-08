@@ -8,9 +8,7 @@
          url('../fonts/helveticaneuebold.svg#helveticaneuebold') format('svg');
 }
 /*======= 1.Reset ======== */
-body.experience-page {
-	padding-top:110px;
-}
+
 .experience-page .sticky-wrapper{
 	top:0;
 	left:0
