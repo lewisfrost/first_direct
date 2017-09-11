@@ -356,6 +356,13 @@ a:hover,a:focus,.a:active {
 
 /*======= 6.Home =======*/
 
+
+
+h1 { 
+    font-family: 'helveticaneuebold', Arial, Helvetica, sans-serif;
+    letter-spacing: -3px;
+    }
+
 .home-fullscreen {
   height: 100%;
   min-height: 400px;

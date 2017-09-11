@@ -19,8 +19,6 @@ body.register-page {
     padding: 6px 15px;
 }
 
-
-
 /* 12.1 Register 
 
 1. Form
@@ -176,6 +174,8 @@ textarea.form-control {
   font-weight: 700;
   font-size: 8em;
   color:#000;
+  font-family: 'helveticaneuebold', Arial, Helvetica, sans-serif;
+  letter-spacing: -3px;
 }
 .section {
 	position:relative;
