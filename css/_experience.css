@@ -127,7 +127,7 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 }
 .welcome-section p{
 	margin:0;
-	font-size:12px;
+	font-size:14px;
 	font-family:'helveticaneue', Arial, Helvetica, sans-serif;
 	margin-bottom:15px;
 }
@@ -237,7 +237,7 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 
 .post-div{
 	background:#fff;
-	padding:15px;
+	padding:15px 15px 28px 15px;
 	color:#000;
 }
 .post-div .img-div{

@@ -631,6 +631,9 @@ label.valid {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #000000;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .footer h5{

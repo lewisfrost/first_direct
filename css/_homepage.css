@@ -92,10 +92,10 @@
 .choose-btn {
 	background-color:#1d1d1b;
 	color:#fff;
-	font-size:12px;
+	font-size:14px;
 	font-family:'helveticaneuebold', Arial, Helvetica, sans-serif;
 	font-weight:bold;
-	padding: 6px 40px 6px 25px;
+	padding: 10px 40px 10px 25px;
 	border:1px solid #1d1d1b;
 	position:relative;
     border-radius: 3px;
@@ -112,7 +112,7 @@
 .choose-btn:after {
 	content: '>';
     position: absolute;
-    top: 3px;
+    top: 7px;
     color: #fff;
     font-size: 13px;
     right: 20px;
