@@ -105,7 +105,8 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
     background: #fff;
     color: #000;
     margin-bottom: 30px;
-    box-shadow: 1px 2px 2px #666;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+    border-radius: 3px;
 }
 
 .welcome-section h3{
