@@ -19,8 +19,6 @@ body.register-page {
     padding: 6px 15px;
 }
 
-
-
 /* 12.1 Register 
 
 1. Form
@@ -34,6 +32,11 @@ body.register-page {
 /*form */
 textarea {
   max-width: 100%;
+}
+
+.contact-form {
+    max-width: 820px;
+    margin: auto;
 }
 
 .contact-form .form-control {
@@ -147,6 +150,7 @@ textarea.form-control {
 }
 
 
+
 /* button */
 
 .btn-custom {
@@ -154,13 +158,20 @@ textarea.form-control {
     color: #ffffff !important;
     border-radius: 1px;
     font-weight: 500;
-    font-size: 17px;
     letter-spacing: 0.04em;
     background-color: #000;
+	font-size:14px;
+	font-family:'helveticaneuebold', Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	padding: 10px 40px 10px 25px;
+	border:1px solid #1d1d1b;
+	position:relative;
+    border-radius: 3px;
 }
 .btn-custom:hover {
-    color: #e1e1e1 !important;
-    background-color: #1d1d1b !important;
+    background-color:#666666 !important;
+	color:#fff !important;
+    border:1px solid #666666;
 }
 
 /* Complete */
@@ -176,6 +187,8 @@ textarea.form-control {
   font-weight: 700;
   font-size: 8em;
   color:#000;
+  font-family: 'helveticaneuebold', Arial, Helvetica, sans-serif;
+  letter-spacing: -3px;
 }
 .section {
 	position:relative;
@@ -192,7 +205,12 @@ textarea.form-control {
 	color: #000;
 }
 
-
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
 
 
 .footer-link{
@@ -212,14 +230,10 @@ textarea.form-control {
 }
 
 
-
-
 .main-container {
 	min-height: 100vh;
 	position: relative;
 }
-
-
 
 
 @media (max-width: 767px) {
@@ -240,10 +254,10 @@ textarea.form-control {
 	padding:20px 0px 10px 0px;
 	text-align:center;	
 }
-footer{
-		text-align:center;
-		
-	}
+footer {
+    text-align: center;
+}
+    
 	.footer-link{
 		margin-bottom:30px;
 	}

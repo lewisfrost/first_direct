@@ -20,7 +20,6 @@ body.product-page {
 }
 
 
-
 .custom-nav {
 	list-style-type:none;
 }
@@ -31,7 +30,7 @@ body.product-page {
 	background-color:transparent;
 	color:#ececec;
 }
-button.navbar-toggle {
+button.navbar-toggle { display:none; display:none;
     background: #ccc;
 }
 button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:focus {
@@ -42,31 +41,57 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 }
 
 
-.breadcrumb-section {
-	position:relative;
-	padding:5px 0px;
-	background-color:#ececec;
+/*form */
+
+textarea {
+  max-width: 100%;
 }
-.breadcrumb-section .breadcrumb {
-	background-color:#ececec;
+
+.contact-form {
+    max-width: 820px;
+    margin: auto;
 }
-.breadcrumb-section .breadcrumb>li+li:before {
-    padding: 0 5px;
-    color: #ccc;
-    content: ">";
+
+.contact-form .form-control {
+  height: 42px;
+  box-shadow: none;
+  background-color: #fff;
+  color: #000000;
+  border:1px solid #b1b2b2;
+  border-radius: 1px;
+}
+
+textarea.form-control {
+  height: auto !important;
+}
+
+.form-group label {
 	color:#000;
+	font-size:17px;
 }
-.breadcrumb-item {
-	color:#000 !important;
-	font-family:'helveticaneuebold', Arial, Helvetica, sans-serif;
- }
- .breadcrumb-item a {
-	 color:#000 !important;
- }
- .breadcrumb-item a:hover {
-	 color:#1d1d1b !important;
-	 text-decoration: underline;
- }
+.instruction {
+	font-size: 13px;
+    position: relative;
+    top: -24px;
+    color: #333;
+}
+.agree {
+	float: left;
+    margin-top: -24px;
+	margin-bottom: 6px;
+}
+.agree label {
+	font-size:14px;
+}
+
+
+.inner-div img {
+    width: 100%;
+    display: inline;
+    margin-bottom: 10px;
+}
+
+/* end form */
 
 .product-head-heading{
 	padding:0px;
@@ -81,20 +106,18 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 	font-weight:bold;
 }
 
-.features li {
-        line-height:180%;>
-}
 
 .welcome-section .inner-div {
-	padding: 15px 15px;
+	padding: 30px;
     background: #fff;
     color: #000;
     margin-bottom: 30px;
-    box-shadow: 2px 5px 5px #666;
-    min-height: 310px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+    border-radius: 3px;
+    min-height: 570px;
 }
 .welcome-section .inner-div.thumb {
-	text-align:center;
+    padding: 8px;
 }
 .welcome-section h3{
 	margin:0;
@@ -105,8 +128,8 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 }
 .welcome-section p{
 	margin:0;
-	font-size:12px;
-	font-family:'helveticaneuebold', Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-family:'helveticaneue', Arial, Helvetica, sans-serif;
 	margin-bottom:15px;
 }
 .choose-btn {
@@ -141,21 +164,30 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
     border-radius: 3px;
 }
 
+
+/*form */
+
 .welcome-section p:last-child{margin-bottom:0}
 
 
+form-group {
+    margin-bottom: 15px;
+    float: inherit !important;
+    width:75%;
+}
 
 
 .testimonial-section {
 	position:relative;
-	padding:30px 0px;
+	padding:0px 0px;
 }
 .testimonial-section .inner-div {
-	padding: 15px 15px;
+	padding: 30px;
     background: #fff;
     color: #000;
     margin-bottom: 30px;
-    box-shadow: 2px 5px 5px #666;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+    border-radius: 3px;
 }
 .testimonial-section .inner-div h3{
 	margin:0;
@@ -166,8 +198,8 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 }
 .testimonial-section .inner-div p{
 	margin:0;
-	font-size:12px;
-	font-family:'helveticaneuebold', Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-family:'helveticaneue', Arial, Helvetica, sans-serif;
 	margin-bottom:24px;
 }
 .author-name {
@@ -186,7 +218,7 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 }
 
 .feature ul li{
-	font-size: 12px;
+	font-size: 14px;
     font-family: 'helveticaneuebold', Arial, Helvetica, sans-serif;
     margin-bottom: 3px;
     line-height: 15px;
@@ -254,6 +286,9 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 }
 
 
+.footer {
+    position: absolute;
+}
  
 
 @media (max-width: 767px) {
@@ -299,17 +334,33 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
     background: #fff;
     color: #000;
     margin-bottom: 15px;
-    box-shadow: 2px 5px 5px #666;
+    box-shadow: 1px 2px 2px #666;
 }
 .gobak {
     position: relative;
     padding: 0px 0px 10px 0px;
 }
+    
+.footer {
+    position: relative;
+}
+    
+.product-head-heading {
+    padding: 0px;
+    margin-top: 22px;
+}
+ 
+    
 }
 @media (max-width: 480px) {
 	.home-head-heading h2 {
 		font-size: 23px;
 		margin-bottom:10px;
 	}
+    
+.footer {
+    position: relative;
+}
+     
 
 }

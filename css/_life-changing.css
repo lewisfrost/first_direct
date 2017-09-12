@@ -105,7 +105,8 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
     background: #fff;
     color: #000;
     margin-bottom: 30px;
-    box-shadow: 1px 2px 2px #666;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+    border-radius: 3px;
 }
 
 .welcome-section h3{
@@ -117,7 +118,7 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 }
 .welcome-section p{
 	margin:0;
-	font-size:12px;
+	font-size:14px;
 	font-family:'helveticaneue', Arial, Helvetica, sans-serif;
 	margin-bottom:15px;
 }
@@ -130,12 +131,14 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 	padding: 10px 40px 10px 25px;
 	border:1px solid #1d1d1b;
 	position:relative;
+    border-radius: 3px;
 }
 .choose-btn:hover {
-	background-color:#ececec;
-	color:#1d1d1b;
+	background-color:#666666;
+	color:#fff;
 	text-decoration:none;
 	border:1px solid #cecece;
+    border-radius: 3px;
 }
 .choose-btn:after {
 	content: '>';
@@ -144,9 +147,11 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
     color: #fff;
     font-size: 15px;
     right: 20px;
+    border-radius: 3px;
 }
 .choose-btn:hover:after {
-	color:#1d1d1b;
+	color:#fff;
+    border-radius: 3px;
 }
 
 .welcome-section p:last-child{margin-bottom:0}
@@ -221,7 +226,7 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 
 .post-div{
 	background:#fff;
-	padding:15px;
+	padding:15px 15px 28px 15px;
 	color:#000;
 }
 .post-div .img-div{
@@ -243,6 +248,10 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 	color:#fff;
 	font-size:10px;
 	
+}
+
+.footer {
+    position: absolute;
 }
 
 .footer-link{
@@ -275,12 +284,14 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 	padding: 10px 40px 10px 25px;
 	border:1px solid #1d1d1b;
 	position:relative;
+    border-radius: 3px;
 }
 .choose-btn:hover {
-	background-color:#ececec;
-	color:#1d1d1b;
+	background-color:#666666;
+	color:#fff;
 	text-decoration:none;
 	border:1px solid #cecece;
+    border-radius: 3px;
 }
 .choose-btn:after {
 	content: '>';
@@ -289,9 +300,11 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
     color: #fff;
     font-size: 15px;
     right: 20px;
+    border-radius: 3px;
 }
 .choose-btn:hover:after {
-	color:#1d1d1b;
+	color:#fff;
+    border-radius: 3px;
 }
 
 

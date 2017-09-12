@@ -104,7 +104,8 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
     background: #fff;
     color: #000;
     margin-bottom: 30px;
-    box-shadow: 2px 5px 5px #666;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+    border-radius: 3px;
 }
 
 .welcome-section h3{
@@ -121,14 +122,14 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 	margin-bottom:15px;
 }
 .welcome-section .inner-div h4  {
-	font-size: 14px;
+	font-size: 22px;
     font-family: 'helveticaneuebold', Arial, Helvetica, sans-serif;
     margin-bottom: 25px;
     font-weight: bold;
     padding-left: 18px;
 }
 .welcome-section .inner-div .fque {
-	font-size:13px;
+	font-size:16px;
 	font-family:'helveticaneuebold', Arial, Helvetica, sans-serif;
 	margin-bottom:10px;
 	font-weight:bold;
@@ -147,9 +148,11 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 }
 .welcome-section .inner-div .fans {
 	margin:0;
-	font-size:12px !important;
-	font-family:'helveticaneuebold', Arial, Helvetica, sans-serif;
+	font-size:14px !important;
+	font-family:'helveticaneue', Arial, Helvetica, sans-serif;
 	margin-bottom:10px;
+    margin-left: 19px;
+    max-width: 75%;
 }
 
 .section-gap {
@@ -166,12 +169,14 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 	padding: 10px 40px 10px 25px;
 	border:1px solid #1d1d1b;
 	position:relative;
+    border-radius: 3px;
 }
 .choose-btn:hover {
-	background-color:#ececec;
-	color:#1d1d1b;
+	background-color:#666666;
+	color:#fff;
 	text-decoration:none;
 	border:1px solid #cecece;
+    border-radius: 3px;
 }
 .choose-btn:after {
 	content: '>';
@@ -180,9 +185,11 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
     color: #fff;
     font-size: 15px;
     right: 20px;
+    border-radius: 3px;
 }
 .choose-btn:hover:after {
-	color:#1d1d1b;
+	color:#fff;
+    border-radius: 3px;
 }
 
 .welcome-section p:last-child{margin-bottom:0}
@@ -257,7 +264,7 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 
 .post-div{
 	background:#fff;
-	padding:15px;
+	padding:15px 15px 28px 15px;
 	color:#000;
 }
 .post-div .img-div{
@@ -350,6 +357,17 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
     position: relative;
     padding: 0px 0px 10px 0px;
 }
+    
+.welcome-section .inner-div .fans {
+	margin:0;
+	font-size:14px !important;
+	font-family:'helveticaneue', Arial, Helvetica, sans-serif;
+	margin-bottom:10px;
+    margin-left: 19px;
+    max-width: 98%;
+}
+    
+    
 }
 @media (max-width: 480px) {
 	.head-heading h2 {
