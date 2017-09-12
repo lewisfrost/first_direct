@@ -273,7 +273,10 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 }
 
 
- 
+.main-container {
+	min-height: 100vh;
+	position: relative;
+} 
 
 @media (max-width: 767px) {
    

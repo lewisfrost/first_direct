@@ -9,7 +9,7 @@
 }
 /*======= 1.Reset ======== */
 body.product-page {
-	padding-top:90px;
+	padding-top:0px;
 }
 .product-page .sticky-wrapper{
 	top:0;
@@ -68,7 +68,7 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
  }
 
 .product-head-heading{
-	padding:0px;
+	padding: 70px 0px 0px 0px;
 }
 .product-head-heading h2{
 	font-size:50px;
@@ -246,7 +246,10 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 }
 
 
- 
+.main-container {
+	min-height: 100vh;
+	position: relative;
+} 
 
 @media (max-width: 767px) {
    

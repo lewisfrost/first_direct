@@ -9,7 +9,7 @@
 }
 /*======= 1.Reset ======== */
 body.register-page {
-	padding-top:90px;
+	padding-top:0px;
 }
 .register-page .sticky-wrapper{
 	top:0;
@@ -98,7 +98,7 @@ textarea.form-control {
 /* header */
 
 .header-title-box {
-  padding-top: 0px;
+  padding-top: 90px;
   padding-bottom: 0px;
   background-color:#000;
 }
@@ -215,8 +215,8 @@ textarea.form-control {
 
 
 .main-container {
-	max-height:100%;
-	height:100vh;
+	min-height: 100vh;
+	position: relative;
 }
 
 

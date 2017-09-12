@@ -9,7 +9,7 @@
 }
 /*======= 1.Reset ======== */
 body.tech-gift-page {
-	padding-top:90px;
+	padding-top:0px;
 }
 .tech-gift-page .sticky-wrapper{
 	top:0;
@@ -70,6 +70,7 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 .header {
 	position:relative;
 	text-align:center;
+	    padding-top: 100px;
 }
 .header img {
 	width:100%;
@@ -218,6 +219,77 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 }
 
 
+
+.main-container {
+	min-height: 100vh;
+	position: relative;
+}
+
+.footer-link{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-size:0;
+}
+.footer-link li{
+	display:inline-block;
+}
+.footer-link a{
+	display:block;
+	padding:5px 18px;
+	font-size:14px;
+	color:#fff;
+}
+
+
+@media (max-width: 767px) {
+   .head-heading h2{
+	font-size:30px;
+	}
+	footer{
+		text-align:center
+	}
+	.footer-link{
+		margin-bottom:30px;
+	}
+	footer .text-right{
+		text-align:center
+	}
+	.footer {
+		padding-top: 40px;
+		padding-bottom: 40px;
+		}
+	.product-head-heading h2 {
+    	font-size: 23px;
+	}
+	.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 0px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+	.welcome-section .inner-div {
+		padding: 20px 15px;
+		margin-bottom: 15px;
+		min-height:auto;
+}
+.testimonial-section {
+    position: relative;
+    padding: 0px 0px;
+}
+.testimonial-section .inner-div {
+    padding: 15px 15px;
+    background: #fff;
+    color: #000;
+    margin-bottom: 15px;
+    box-shadow: 2px 5px 5px #666;
+}
+.gobak {
+    position: relative;
+    padding: 0px 0px 10px 0px;
+}
+}
 
 @media (max-width: 767px) {
 	.gobak {

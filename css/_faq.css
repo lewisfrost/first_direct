@@ -9,7 +9,7 @@
 }
 /*======= 1.Reset ======== */
 body.faq-page {
-	padding-top:90px;
+	padding-top:0px;
 }
 .faq-page .sticky-wrapper{
 	top:0;
@@ -71,7 +71,7 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 
 
 .head-heading{
-	padding:45px 0px 0px 0px;
+	padding: 150px 0px 0px 0px;
 }
 .head-heading h2{
 	font-size:50px;
@@ -298,7 +298,10 @@ button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:fo
 }
 
 
- 
+.main-container {
+	min-height: 100vh;
+	position: relative;
+} 
 
 @media (max-width: 767px) {
    .head-heading h2{
